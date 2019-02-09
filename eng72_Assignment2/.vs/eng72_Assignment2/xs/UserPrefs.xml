@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{8F3C8428-4E8F-9DA8-A4CC-46E7B23C23E8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpawnCollectable.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PushPhysics.cs" Line="41" Column="28" />
+      <File FileName="Assets/Scripts/SpawnCollectable.cs" Line="10" Column="25" />
+      <File FileName="Assets/Scripts/Rotator.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
