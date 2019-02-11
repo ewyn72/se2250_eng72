@@ -60,10 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PushPhysics.cs" />
-    <Compile Include="Assets\Scripts\Rotator.cs" />
-    <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\Scripts\SpawnCollectable.cs" />
+    <Compile Include="Assets\__Scripts\PushPhysics.cs" />
+    <Compile Include="Assets\__Scripts\Rotator.cs" />
+    <Compile Include="Assets\__Scripts\Score.cs" />
+    <Compile Include="Assets\__Scripts\SpawnCollectable.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/ethanng/Documents/SE2250 Software Construction/Assignments/eng72_Assignment2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
