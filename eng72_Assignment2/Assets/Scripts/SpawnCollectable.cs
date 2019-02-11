@@ -6,8 +6,8 @@ public class SpawnCollectable : MonoBehaviour
 {
 	public GameObject cubePrefabVar;
 	private GameObject cube;
-    public int numOfObjects;
-    public float radius;
+    private int numOfObjects = 10;
+    private float radius = 4;
 
     // Start is called before the first frame update
     void Start()

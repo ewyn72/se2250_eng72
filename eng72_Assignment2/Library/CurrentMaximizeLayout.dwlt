@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 653
-  m_MinSize: {x: 813, y: 424}
-  m_MaxSize: {x: 22008, y: 14024}
+  m_MinSize: {x: 811, y: 424}
+  m_MaxSize: {x: 22006, y: 14024}
   vertical: 0
-  controlID: 1184
+  controlID: 1076
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_MinSize: {x: 536, y: 424}
   m_MaxSize: {x: 18006, y: 14024}
   vertical: 0
-  controlID: 1163
+  controlID: 1045
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 332, y: 374}
   m_MaxSize: {x: 14002, y: 14024}
   vertical: 1
-  controlID: 1130
+  controlID: 1021
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_MinSize: {x: 332, y: 274}
   m_MaxSize: {x: 14002, y: 10024}
   vertical: 0
-  controlID: 1106
+  controlID: 1022
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,12 +243,13 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/UI
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/ethanng/Documents/School/SE2250 Software Construction/Assignments/eng72_Assignment2
+  m_LastProjectPath: /Users/ethanng/Documents/SE2250 Software Construction/Assignments/eng72_Assignment2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -281,7 +282,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da0b0000
+    m_SelectedIDs: c80b0000
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff0000000072090000500b0000
     m_RenameOverlay:
@@ -308,8 +309,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: da0b0000
-    m_LastClickedInstanceID: 3034
+    m_SelectedInstanceIDs: c80b0000
+    m_LastClickedInstanceID: 3016
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -395,7 +396,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d2fbffffd4fbffffe20b0000
+      m_ExpandedIDs: d4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -495,7 +496,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 424}
   m_MaxSize: {x: 4004, y: 8024}
   vertical: 1
-  controlID: 1164
+  controlID: 1046
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -515,8 +516,8 @@ MonoBehaviour:
     y: 0
     width: 513
     height: 312
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -554,9 +555,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0.9, z: 0}
+    m_Target: {x: 0, y: 5.52, z: -10}
     speed: 2
-    m_Value: {x: 0, y: 0.9, z: 0}
+    m_Value: {x: 0, y: 5.52, z: -10}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -588,9 +589,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.1485219, y: -0.33256853, z: 0.053123288, w: 0.92979425}
   m_Size:
-    m_Target: 8.084102
+    m_Target: 22
     speed: 2
-    m_Value: 8.084102
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2

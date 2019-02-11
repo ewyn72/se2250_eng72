@@ -7,14 +7,13 @@ public class PushPhysics : MonoBehaviour
 {
     private Rigidbody rb;
     public float speed;
-    private int score;
     public Text scoreText;
+    Score score = new Score();
 
     void Start() 
     {
         rb = GetComponent<Rigidbody>();
-        score = 0;
-        scoreText.text = "Score: " + score.ToString();
+        scoreText.text = "Score: " + score.GetScore().ToString();
     }
 
     void FixedUpdate() 
@@ -34,26 +33,26 @@ public class PushPhysics : MonoBehaviour
         {
             if (obj.material.color == Color.red)
             {
-                score += 1;
+                score.SetScore(score.GetScore()+1);
             }
             else if (obj.material.color == Color.yellow)
             {
-                score += 2;
+                score.SetScore(score.GetScore() + 2);
             }
             else if (obj.material.color == Color.blue)
             {
-                score += 3;
+                score.SetScore(score.GetScore() + 3);
             }
             else if (obj.material.color == Color.green)
             {
-                score += 4;
+                score.SetScore(score.GetScore() + 4);
             }
             else if (obj.material.color == Color.white)
             {
-                score += 5;
+                score.SetScore(score.GetScore() + 5);
             }
             other.gameObject.SetActive(false);
-            scoreText.text = "Score: " + score.ToString();
+            scoreText.text = "Score: " + score.GetScore().ToString();
         }
     }
 }
